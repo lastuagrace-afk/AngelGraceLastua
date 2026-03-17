@@ -46,7 +46,7 @@ def get_students():
 return jsonify(students)
 if __name__ == '__main__':
 app.run(debug=True)
- /update_student/<id> → update data (using POST)
+# /update_student/<id> → update data (using POST)
 from flask import Flask, jsonify, request, render_template_string, redirect, url_for
 app = Flask(__name__)
 # Sample in-memory data
