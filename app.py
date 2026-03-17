@@ -101,7 +101,6 @@ def list_students():
         </div>
         
         <footer class="text-center text-muted mt-5 mb-3">
-            <small>Flask CRUD Demo &copy; 2023</small>
         </footer>
     </div>
 
